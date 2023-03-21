@@ -1,0 +1,22 @@
+.imageUpload{
+
+  display: flex;
+  flex-direction:column;
+  width: 60%;
+  margin: 10px auto;
+
+}
+
+.imageUpload__progress{
+margin: 5px;
+width: 100%;
+}
+
+.caption{
+  margin: 10px;
+}
+
+.choose{
+  margin: 10px;
+  
+}

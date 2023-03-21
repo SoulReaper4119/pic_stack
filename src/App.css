@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#background{
+  background-color: #ffecec;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+body{
+  background-image: url(https://vastphotos.com/files/uploads/photos/10690/autumn-foliage-tree-photo-l.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter:blur(8px);
+  background-attachment: fixed;
+
+ }
+.app{
+  background-color: #FF8AAE;
+
+   height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__posts{
+  padding: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app_postsRight{
+  margin-left: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #ffc7c7;
+  object-fit: contain;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__signup{
+display: flex;
+flex-direction: column;
+}
+
+.app__headerImage{
+  width:100px;
+  object-fit: contain;
+}
+
+.loginPrompt{
+  text-align: center;
+  padding: 20px;
 }
